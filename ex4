@@ -1,0 +1,34 @@
+import random
+
+def sorteio(inicio, fim):
+    # Sorteia um número dentro do intervalo [inicio, fim]
+    numero_sorteado = random.randint(inicio, fim)
+    return numero_sorteado
+
+# Exemplo de uso da função
+def main():
+    inicio = int(input("Digite o valor inicial do intervalo: "))
+    fim = int(input("Digite o valor final do intervalo: "))
+
+    resultado_sorteio = sorteio(inicio, fim)
+    print("Número sorteado:", resultado_sorteio)
+
+if __name__ == "__main__":
+    main()
+import random
+
+def sorteio(inicio, fim):
+    # Sorteia um número dentro do intervalo [inicio, fim]
+    numero_sorteado = random.randint(inicio, fim)
+    return numero_sorteado
+
+# Exemplo de uso da função
+def main():
+    inicio = int(input("Digite o valor inicial do intervalo: "))
+    fim = int(input("Digite o valor final do intervalo: "))
+
+    resultado_sorteio = sorteio(inicio, fim)
+    print("Número sorteado:", resultado_sorteio)
+
+if __name__ == "__main__":
+    main()
