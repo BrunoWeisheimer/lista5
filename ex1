@@ -1,0 +1,6 @@
+def cumprimentar(nome):
+    print(f"Olá, {nome}!")
+
+# Exemplo de uso da função
+nome_da_pessoa = input("Digite o nome da pessoa: ")
+cumprimentar(nome_da_pessoa)
