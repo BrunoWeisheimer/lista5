@@ -1,0 +1,15 @@
+def mediaUnisinos(nota_a, nota_b):
+    # Calcula a média ponderada considerando os pesos
+    media_final = (nota_a * 0.33) + (nota_b * 0.67)
+    return media_final
+
+# Exemplo de uso da função
+def main():
+    nota_grau_a = float(input("Digite a nota do Grau A: "))
+    nota_grau_b = float(input("Digite a nota do Grau B: "))
+
+    resultado_final = mediaUnisinos(nota_grau_a, nota_grau_b)
+    print("Resultado final:", resultado_final)
+
+if __name__ == "__main__":
+    main()
